@@ -1,5 +1,5 @@
-## Make effective data visulization
-# Summary
-# Design
-# Feedback
-# Resources
+# Make effective data visulization
+## Summary
+## Design
+## Feedback
+## Resources
