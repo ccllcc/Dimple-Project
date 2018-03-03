@@ -1,13 +1,17 @@
 # Make effective data visulization
 ## Summary
 
-The dataset I used for this project is found on Kaggle, which contains wine quality information via 11 variables.
-I hope readers of this visualization could get a feel of what are the traits being a wine of quality. From 1 to 8, the higher the rank is, the better quality.
+The dataset I used for this project is found on Kaggle, containing air quality information of main Chinese cities from 2010 to 2015. I used the data for Shanghai to explore the impact of differnet weather conditions to the air quality, which is represented by PM2.5.
 
 ## Design
 
-Initially I took the boxplot to show the variable distribution of each quality category. 
-I believe that unveil the important traits of wine charactoristics.
+Originally I have made line chart to show the seasonality, and scatter plot to reveal the bi-variable correlation, after receiving the comments, I added animation, and color encode to the line charts and scatter plot.
 
 ## Feedback
+What do you notice in the visualization?
+What questions do you have about the data?
+What relationships do you notice?
+What do you think is the main takeaway from this visualization?
+Is there something you don’t understand in the graphic?
+
 ## Resources
