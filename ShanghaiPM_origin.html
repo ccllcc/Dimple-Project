@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+
+
+<style media="screen" type="text/css">
+</style>
+
+<html>
+<head>
+  <meta charset="utf-8">
+  <script src="http://d3js.org/d3.v3.min.js"></script>
+  <script src="http://dimplejs.org/dist/dimple.v2.0.0.min.js"></script>
+    <script type="text/javascript">
+      function draw(data) {
+      
+      /*
+        D3.js setup code
+      */
+          "use strict";
+          var margin = 60,
+              width = 1400 - margin,
+              height = 350 - margin;
+          var svg1 = d3.select("body")
+            .append("svg")
+              .attr("width", width + margin)
+              .attr("height", height + margin)
+            .append('g')
+                .attr('class','chart');
+          var svg2 = d3.select("body")
+            .append("svg")
+              .attr("width", width + margin)
+              .attr("height", height + margin)
+            .append('g')
+                .attr('class','chart');
+      
+          
+      /*
+        Dimple.js Chart construction code
+      */
+          /* Chart 1: PM 2.5 Daily Record in 2015*/
+          var myChart = new dimple.chart(svg1, data);
+
+          myChart.defaultColors = [
+          	new dimple.color("#009530"),
+          	new dimple.color("#4FA600"),
+            new dimple.color("FFD100"),
+            new dimple.color("#9fa0a4"),
+            new dimple.color("#B10043")
+          ];
+
+
+          var x = myChart.addTimeAxis("x", "date");
+          var y = myChart.addMeasureAxis("y", "PM_US.Post");
+          var mySeries1 = myChart.addSeries(null, dimple.plot.line);
+          mySeries1.aggregate = dimple.aggregateMethod.avg;
+
+
+          x.tickFormat = "%B";
+          x.title = "Time Line"
+          y.title = "Daily PM2.5 (daily aevarage)"
+          y.tickFormat = "##,###";
+
+
+          myChart.draw();
+
+
+          /* Chart 2: Wind Speed and PM 2.5 */
+          var myChart = new dimple.chart(svg2, data);
+
+
+          /* Set the right colors for tooltip */
+          myChart.defaultColors = [
+          	new dimple.color("#B10043"),
+          	new dimple.color("#4FA600"),
+            new dimple.color("FFD100"),
+            new dimple.color("#9fa0a4"),
+            new dimple.color("#009530")
+          ];
+
+
+          var x = myChart.addMeasureAxis("x", "PM_US.Post");
+          var y = myChart.addMeasureAxis("y", "Iws");
+          
+        
+          var c = myChart.addColorAxis("PM_US.Post", ["#00FF00", "#0000FF","#FF0000"]);
+          var mySeries1 = myChart.addSeries("date",dimple.plot.scatter);
+          mySeries1.aggregate = dimple.aggregateMethod.avg;
+
+
+          
+          x.title = "PM 2.5"
+          y.title = "Wind Speed"
+          
+          
+          myChart.draw();
+
+        };
+      </script>
+  </head>
+<body>
+  <script type="text/javascript">
+  /*
+    Use D3 (not dimple.js) to load the TSV file
+    and pass the contents of it to the draw function
+    */
+ 
+  d3.csv("PMShanghai_2015.csv", draw);
+  
+  </script>
+</body>
+</html>
