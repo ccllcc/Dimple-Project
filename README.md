@@ -3,7 +3,7 @@
 
 The dataset I used for this project is found on Kaggle, containing air quality information of main Chinese cities from 2010 to 2015. I used the data for Shanghai to explore the impact of differnet weather conditions to the air quality, which is represented by PM2.5.
 
-Finding of the visualization:
+Finding of the visualization:\
 Overall\
 We witness that there is a similar pattern of the index trend through a year: the winter is always worse than summer. The worst record was taken at end 2013 and almost reached 400.
 
