@@ -27,10 +27,8 @@ If there any more correlation could be explored via the scatter plot?
 #### Is there something you don’t understand in the graphic?
 Nope...
 
-## Data Set
-There are two data sets are used for generating the charts in ShanghaiPM_final.html and ShanghaiPM_origin.html.\
-'PMShanghai_2015.csv' was used for the original html to scratch some ideas and also used for the scatter plot in the final html.\
-'PMShanghai_daily.csv' was used to generate the line chart.
+## About the Data Set
+The data set was originally found on Kaggle. There are two data sets are used for generating the charts in ShanghaiPM_final.html and ShanghaiPM_origin.html. 'PMShanghai_2015.csv' was used for the original html to scratch some ideas and also used for the scatter plot in the final html. 'PMShanghai_daily.csv' was used to generate the line chart.
 
 ## Resources
 https://developer.mozilla.org/en-US/docs/Web/CSS {grasped CSS basics}\
