@@ -28,11 +28,15 @@ A diverging color pallette to the scatter plot was to draw readers attention, as
 I've involved further dimension into the charts by leveraging animation to bring more vivid comparison.
 
 ## Feedback to the original design
-#### What do you notice in the visualization (specifically to the origin.html)?
-
-I see a line representing the PM 2.5 along year 2015 and it was starting from March that this index got stablize, which was less than 100. Again starting from Nov, the index got increased and surpassed 100. Is it possible to show more comparison across year and season?
-
-I also see for the scatter plot, the horizontalaxis is PM 2.5 index and vertical axis is wind speed. I understand that the red color means that the PM 2.5 is bad and green means the air quality is good. My understanding was confirmed when hovering onto each of the data point.
+#### What do you notice in the visualization?
+Person A\
+I see a line representing the PM 2.5 along year 2015 and it was starting from March that this index got stablize, which was less than 100. Again starting from Nov, the index got increased and surpassed 100. Is it possible to show more comparison across year and season?(to original design)
+Person B\
+I also see for the scatter plot, the horizontalaxis is PM 2.5 index and vertical axis is wind speed. I understand that the red color means that the PM 2.5 is bad and green means the air quality is good. My understanding was confirmed when hovering onto each of the data point.(to original design)
+Person A\
+I can not see clearly the yearly trend, all mixed up.(to the intermediate1 design)
+Person C\
+I like the color pallette used for the scatter plot, which draws me my attention to the values of the data points.(to the original design)
 
 #### What questions do you have about the data?
 
