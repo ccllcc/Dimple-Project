@@ -8,13 +8,13 @@ Overall\
 We witness that there is a similar pattern of the index trend through a year: the winter is always worse than summer. The worst record was taken at end 2013 and almost reached 400.
 
 Yearly View\
-This chart shows with more details the year to year PM 2.5 comparison. In 2012, we see almost each season PM 2.5 surpass 150. In 2013, the air pollution got even worse compared to 2012. 2015 was the best year with control and attention as except the beginning and end of the year, from March to October, not a day higher than 100.
+This chart shows with more details the year to year AQI comparison. In 2012, we see almost each season AQI surpass 150. In 2013, the air pollution got even worse compared to 2012. 2015 was the best year with control and attention as except the beginning and end of the year, from March to October, not a day higher than 100.
 
-Wind Speed vs PM 2.5\
-This is a scatter plot, to show the correlation of wind speed again air quality index(PM 2.5). We can witness that all the points with value greater than 100 on the x axis are less than 200 on the y axis. This shows that the bigger the wind speed, the less chances getting a high PM 2.5 value. The correlation is negative.
+Wind Speed vs AQI\
+This is a scatter plot, to show the correlation of wind speed again air quality index. We can witness that all the points with value greater than 100 on the x axis are less than 200 on the y axis. This shows that the bigger the wind speed, the less chances getting a high value. The correlation is negative.
 
-Wind Direction vs Wind Speed vs PM 2.5\
-In this chart, the wind direction has been brough into the chart to produce a 3 dimensional chart to reveal further the complexity and correlations. From the chart, we could tell that when the winds come from SE(south east), the PM 2.5 appear to be within the lowest range(<=120). When the winds come from NW(north west) or there is no wind movement, the PM 2.5 could go above 200. And it appears that the winds from north move faster than those from south.
+Wind Direction vs Wind Speed vs AQI\
+In this chart, the wind direction has been brough into the chart to produce a 3 dimensional chart to reveal further the complexity and correlations. From the chart, we could tell that when the winds come from SE(south east), the AQI appear to be within the lowest range(<=120). When the winds come from NW(north west) or there is no wind movement, the AQI could go above 200. And it appears that the winds from north move faster than those from south.
 
 Seasonality\
 When split the scatter plot by season, it also reveals some interesting findings: it confirms the finding in line plot, that summer is the best season of air quality in Shanghai. If you want to visit this city, the best choice will be summer.(personal recommendation) You could also choose autumn, but some of the days could be polluted. Winter is the worst among all year.
@@ -30,9 +30,9 @@ I've involved further dimension into the charts by leveraging animation to bring
 ## Feedback to the original design
 #### What do you notice in the visualization?
 Person A\
-I see a line representing the PM 2.5 along year 2015 and it was starting from March that this index got stablize, which was less than 100. Again starting from Nov, the index got increased and surpassed 100. Is it possible to show more comparison across year and season?(to original design)\
+I see a line representing the AQI along year 2015 and it was starting from March that this index got stablize, which was less than 100. Again starting from Nov, the index got increased and surpassed 100. Is it possible to show more comparison across year and season?(to original design)\
 Person B\
-I also see for the scatter plot, the horizontalaxis is PM 2.5 index and vertical axis is wind speed. I understand that the red color means that the PM 2.5 is bad and green means the air quality is good. My understanding was confirmed when hovering onto each of the data point.(to original design)\
+I also see for the scatter plot, the horizontal axis is air quality index and vertical axis is wind speed. I understand that the red color means that the air quality is bad and green means the air quality is good. My understanding was confirmed when hovering onto each of the data point.(to original design)\
 Person A\
 I can not see clearly the yearly trend, all mixed up.(to the intermediate design)\
 Person C\
