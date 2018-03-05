@@ -34,7 +34,7 @@ I see a line representing the PM 2.5 along year 2015 and it was starting from Ma
 Person B\
 I also see for the scatter plot, the horizontalaxis is PM 2.5 index and vertical axis is wind speed. I understand that the red color means that the PM 2.5 is bad and green means the air quality is good. My understanding was confirmed when hovering onto each of the data point.(to original design)\
 Person A\
-I can not see clearly the yearly trend, all mixed up.(to the intermediate1 design)\
+I can not see clearly the yearly trend, all mixed up.(to the intermediate design)\
 Person C\
 I like the color pallette used for the scatter plot, which draws me my attention to the values of the data points.(to the original design)
 
@@ -61,3 +61,4 @@ https://github.com/PMSI-AlignAlytics/dimple/wiki {where I went through the basic
 https://www.health.ny.gov/environmental/indoors/air/pmq_a.htm {where I get some background knowledge about PM2.5}\
 https://www.kaggle.com/ {where I found my dataset}
 https://airnow.gov/index.cfm?action=aqibasics.aqi {Air Quality Index basics}
+http://www.csgnetwork.com/windspeedconv.html {Wind speed units reference}
