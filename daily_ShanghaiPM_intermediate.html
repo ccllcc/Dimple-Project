@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <script src="http://d3js.org/d3.v3.min.js"></script>
+    <script src="http://dimplejs.org/dist/dimple.v2.0.0.min.js"></script>
+    
+    <style>
+      /*circle.dimple-series-1 {
+        fill: red;
+      */}
+
+      h2 {
+        text-align: center;
+      }
+    </style>
+
+    <script type="text/javascript">
+      function draw_lines(data) {
+      
+      /*
+        D3.js setup code
+      */
+
+          "use strict";
+          var margin = 75,
+              width = 1400 - margin,
+              height = 600 - margin;
+
+          d3.select("body")
+            .append("h2")
+            .text("Shanghai PM 2.5 Trial 2")
+
+          var svg = d3.select("body")
+            .append("svg")
+              .attr("width", width + margin)
+              .attr("height", height + margin)
+            .append('g')
+                .attr('class','chart');
+
+      /*
+        Dimple.js Chart construction code
+      */
+
+          var myChart = new dimple.chart(svg, data);
+          
+          /* Set the right colors for tooltip */
+          myChart.defaultColors = [
+          	new dimple.color("#009530"),
+          	new dimple.color("#4FA600"),
+            new dimple.color("FFD100"),
+            new dimple.color("#9fa0a4"),
+            new dimple.color("#B10043")
+          ];
+
+
+          var x = myChart.addTimeAxis("x", "monthdate");
+          var y = myChart.addMeasureAxis("y", "mean_PM");
+          var mySeries1 = myChart.addSeries('year', dimple.plot.line);
+          mySeries1.aggregate = dimple.aggregateMethod.sum;
+
+
+          x.tickFormat = "%B";
+          x.title = "Time Line"
+          y.title = "Daily PM2.5 (hourly aevarage)"
+
+
+          /*myChart.storyboard = new dimple.storyboard(myChart, "year");*/
+          
+          
+
+          myChart.draw();
+
+        };
+
+    </script>
+  </head>
+<body>
+  <script type="text/javascript">
+  /*
+    Use D3 (not dimple.js) to load the TSV file
+    and pass the contents of it to the draw function
+    */
+  d3.csv("PMShanghai_daily.csv", draw_lines);
+  </script>
+</body>
+</html>
