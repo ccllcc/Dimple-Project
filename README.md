@@ -5,10 +5,10 @@ The dataset I used for this project is found on Kaggle, containing air quality i
 
 ## Design
 
-Originally I have made line chart to show the seasonality, and scatter plot to reveal the bi-variable correlation, after receiving the comments, I added animation, and color encode to the line charts and scatter plot. I have brought into the scatter plot another attribute to enable the animation and reveal a 3 dimension correlation in addition to the wind speed.
+Originally I have made line chart to show the seasonality as the date information is available in the dataset, and scatter plot to reveal the bi-variable correlation. After receiving the comments, I added animation, and color encode to the line charts and scatter plot. The chart types remain the same and I've involved further dimension into the charts by leveraging animation.
 
 ## Feedback to the original design
-#### What do you notice in the visualization?
+#### What do you notice in the visualization (specifically to the origin.html)?
 
 I see a line representing the PM 2.5 along year 2015 and it was starting from March that this index got stablize, which was less than 100. Again starting from Nov, the index got increased and surpassed 100. Is it possible to show more comparison across year and season?
 
