@@ -60,3 +60,4 @@ https://developer.mozilla.org/en-US/docs/Web/HTML {grasped html basics}\
 https://github.com/PMSI-AlignAlytics/dimple/wiki {where I went through the basic dimple functionality}\
 https://www.health.ny.gov/environmental/indoors/air/pmq_a.htm {where I get some background knowledge about PM2.5}\
 https://www.kaggle.com/ {where I found my dataset}
+https://airnow.gov/index.cfm?action=aqibasics.aqi {Air Quality Index basics}
