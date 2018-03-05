@@ -16,9 +16,21 @@ I also see for the scatter plot, the horizontalaxis is PM 2.5 index and vertical
 
 #### What questions do you have about the data?
 
+What's the granularity of the data used in this project?
+What's the source of this dataset?
 
-#### What relationships do you notice?
 #### What do you think is the main takeaway from this visualization?
+
+I hope if it is possible, to see a year by year comparison, and it is already good to have the yearly pattern.
+If there any more correlation could be explored via the scatter plot?
+
 #### Is there something you don’t understand in the graphic?
+Nope...
 
 ## Resources
+https://developer.mozilla.org/en-US/docs/Web/CSS {grasped CSS basics}
+https://developer.mozilla.org/en-US/docs/Web/HTML {grasped html basics}
+https://github.com/PMSI-AlignAlytics/dimple/wiki {where I went through the basic dimple functionality}
+https://www.health.ny.gov/environmental/indoors/air/pmq_a.htm {where I get some background knowledge about PM2.5}
+https://www.kaggle.com/ {where I found my dataset}
+https://github.com/vverde/Udacity-Data-Analyst-Nanodegree-P6 {where I found a sample project model}
