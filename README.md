@@ -1,7 +1,7 @@
 # Make effective data visulization
 ## Summary
 
-The dataset I used for this project is found on Kaggle, containing air quality information of main Chinese cities from 2010 to 2015. I used the data for Shanghai to explore the impact of differnet weather conditions to the air quality, which is represented by PM2.5.
+The dataset I used for this project is found on Kaggle, containing air quality information (AQI) of main Chinese cities from 2010 to 2015. I used the data for Shanghai to explore the impact of differnet weather conditions to the air quality. In this project, I've dived further into the relationship between wind speed(Iws) vs air quality(AQI).
 
 Finding of the visualization:\
 Overall\
@@ -21,7 +21,7 @@ When split the scatter plot by season, it also reveals some interesting findings
 
 ## Design
 
-Originally I have made line chart to show the seasonality as the date information is available in the dataset, hence a line is perfect to show a data set with date dimension and could reveal transition. I used the scatter plot to reveal the bi-variable correlation. After receiving the comments, I added animation, and color encode to the line charts and scatter plot. 
+Originally I have made line chart to show the AQI trend along the year as the date information is available in the dataset, hence a line is perfect to show a data set with date dimension and could reveal transition. I used the scatter plot to reveal the bi-variable (wind speed Iws vs air quality AQI) correlation. After receiving the comments, I added animation, and color encode to the line charts and scatter plot. 
 
 A diverging color pallette to the scatter plot was to draw readers attention, as red shows that the index is the worst among the filtered data points, and green is the best among filtered data points. 
 
