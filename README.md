@@ -5,7 +5,7 @@ The dataset I used for this project is found on Kaggle, containing air quality i
 
 ## Design
 
-Originally I have made line chart to show the seasonality, and scatter plot to reveal the bi-variable correlation, after receiving the comments, I added animation, and color encode to the line charts and scatter plot.
+Originally I have made line chart to show the seasonality, and scatter plot to reveal the bi-variable correlation, after receiving the comments, I added animation, and color encode to the line charts and scatter plot. I have brought into the scatter plot another attribute to enable the animation and reveal a 3 dimension correlation in addition to the wind speed.
 
 ## Feedback to the original design
 #### What do you notice in the visualization?
